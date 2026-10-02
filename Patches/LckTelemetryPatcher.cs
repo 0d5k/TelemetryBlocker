@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.Reflection;
+using HarmonyLib;
+using Liv.Lck.Telemetry;
+
+namespace TelemetryBlocker.Patches;
+
+[HarmonyPatch]
+public class TelemetryInterceptor
+{
+	[HarmonyTargetMethods]
+	public static IEnumerable<MethodBase> TargetMethods()
+	{
+		BindingFlags flags = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic;
+		Type type = typeof(LckTelemetry);
+		string[] methodNames = new string[9] { "GetGeoLocation", "SendTelemetry", "SendTelemetryAsync", "Initialize", "InitializeAsync", "InitializeHttpClient", "LoadOrCreateDeviceId", "SerializeTelemetryEvent", "SetUserIdProvider" };
+		string[] array = methodNames;
+		foreach (string methodName in array)
+		{
+			MethodInfo method = type.GetMethod(methodName, flags);
+			if (method != null)
+			{
+				yield return method;
+			}
+		}
+	}
+
+	private static bool Prefix(MethodBase __originalMethod)
+	{
+		return false;
+	}
+}
