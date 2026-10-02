@@ -47,7 +47,7 @@ public class HardwareIdPatch
 	private static string GenerateRandomHardwareId()
 	{
 		Random random = new Random();
-		return new string((from s in Enumerable.Repeat("ABCDEFGHIJKLMNOPQRSTUVWXYZ", 16)
+        return new string((from s in Enumerable.Repeat("ABCDEFGHIJKLMNOPQRSTUVWXYZ", 16)
 			select s[random.Next(s.Length)]).ToArray());
 	}
 }

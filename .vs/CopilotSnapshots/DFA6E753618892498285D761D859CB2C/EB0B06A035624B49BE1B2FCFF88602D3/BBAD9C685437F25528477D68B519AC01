@@ -1,8 +1,8 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
-using System.Linq;
 using HarmonyLib;
+using Liv.Lck.Telemetry;
 
 namespace TelemetryBlocker.Patches;
 
@@ -13,19 +13,7 @@ public class TelemetryInterceptor
 	public static IEnumerable<MethodBase> TargetMethods()
 	{
 		BindingFlags flags = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic;
-		Type type = Type.GetType("Liv.Lck.Telemetry.LckTelemetry");
-		if (type == null)
-		{
-			foreach (var asm in AppDomain.CurrentDomain.GetAssemblies())
-			{
-				type = asm.GetType("Liv.Lck.Telemetry.LckTelemetry");
-				if (type != null) break;
-			}
-		}
-		if (type == null)
-		{
-			yield break;
-		}
+		Type type = typeof(LckTelemetry);
 		string[] methodNames = new string[9] { "GetGeoLocation", "SendTelemetry", "SendTelemetryAsync", "Initialize", "InitializeAsync", "InitializeHttpClient", "LoadOrCreateDeviceId", "SerializeTelemetryEvent", "SetUserIdProvider" };
 		string[] array = methodNames;
 		foreach (string methodName in array)

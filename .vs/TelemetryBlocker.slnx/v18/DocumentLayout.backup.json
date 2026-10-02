@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kayte\\Downloads\\github stuff dont touch\\asdasdasd\\TelemetryBlocker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC73E4A9-EF7F-EEBC-65DC-F83D2217953F}|TelemetryBlocker.csproj|c:\\users\\kayte\\downloads\\github stuff dont touch\\asdasdasd\\telemetryblocker\\patches\\lcktelemetrypatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC73E4A9-EF7F-EEBC-65DC-F83D2217953F}|TelemetryBlocker.csproj|solutionrelative:patches\\lcktelemetrypatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC73E4A9-EF7F-EEBC-65DC-F83D2217953F}|TelemetryBlocker.csproj|c:\\users\\kayte\\downloads\\github stuff dont touch\\asdasdasd\\telemetryblocker\\patches\\hwidpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC73E4A9-EF7F-EEBC-65DC-F83D2217953F}|TelemetryBlocker.csproj|solutionrelative:patches\\hwidpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC73E4A9-EF7F-EEBC-65DC-F83D2217953F}|TelemetryBlocker.csproj|c:\\users\\kayte\\downloads\\github stuff dont touch\\asdasdasd\\telemetryblocker\\plugin\\plugincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC73E4A9-EF7F-EEBC-65DC-F83D2217953F}|TelemetryBlocker.csproj|solutionrelative:plugin\\plugincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC73E4A9-EF7F-EEBC-65DC-F83D2217953F}|TelemetryBlocker.csproj|c:\\users\\kayte\\downloads\\github stuff dont touch\\asdasdasd\\telemetryblocker\\telemetryblocker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DC73E4A9-EF7F-EEBC-65DC-F83D2217953F}|TelemetryBlocker.csproj|solutionrelative:telemetryblocker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LckTelemetryPatcher.cs",
+              "DocumentMoniker": "C:\\Users\\kayte\\Downloads\\github stuff dont touch\\asdasdasd\\TelemetryBlocker\\Patches\\LckTelemetryPatcher.cs",
+              "RelativeDocumentMoniker": "Patches\\LckTelemetryPatcher.cs",
+              "ToolTip": "C:\\Users\\kayte\\Downloads\\github stuff dont touch\\asdasdasd\\TelemetryBlocker\\Patches\\LckTelemetryPatcher.cs",
+              "RelativeToolTip": "Patches\\LckTelemetryPatcher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T21:49:35.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HWIDPatch.cs",
+              "DocumentMoniker": "C:\\Users\\kayte\\Downloads\\github stuff dont touch\\asdasdasd\\TelemetryBlocker\\Patches\\HWIDPatch.cs",
+              "RelativeDocumentMoniker": "Patches\\HWIDPatch.cs",
+              "ToolTip": "C:\\Users\\kayte\\Downloads\\github stuff dont touch\\asdasdasd\\TelemetryBlocker\\Patches\\HWIDPatch.cs",
+              "RelativeToolTip": "Patches\\HWIDPatch.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwDEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T21:49:30.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PluginController.cs",
+              "DocumentMoniker": "C:\\Users\\kayte\\Downloads\\github stuff dont touch\\asdasdasd\\TelemetryBlocker\\Plugin\\PluginController.cs",
+              "RelativeDocumentMoniker": "Plugin\\PluginController.cs",
+              "ToolTip": "C:\\Users\\kayte\\Downloads\\github stuff dont touch\\asdasdasd\\TelemetryBlocker\\Plugin\\PluginController.cs",
+              "RelativeToolTip": "Plugin\\PluginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T21:45:37.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TelemetryBlocker",
+              "DocumentMoniker": "C:\\Users\\kayte\\Downloads\\github stuff dont touch\\asdasdasd\\TelemetryBlocker\\TelemetryBlocker.csproj",
+              "RelativeDocumentMoniker": "TelemetryBlocker.csproj",
+              "ToolTip": "C:\\Users\\kayte\\Downloads\\github stuff dont touch\\asdasdasd\\TelemetryBlocker\\TelemetryBlocker.csproj",
+              "RelativeToolTip": "TelemetryBlocker.csproj",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-02T21:36:26.997Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
